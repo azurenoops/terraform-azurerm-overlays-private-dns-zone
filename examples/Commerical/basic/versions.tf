@@ -1,8 +1,7 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-# remove file if not needed
-
-locals {
-  
+# Azurerm provider configuration
+provider "azurerm" {
+  features {}
 }
