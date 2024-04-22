@@ -30,5 +30,5 @@ variable "vm_autoregistration_enabled" {
 variable "soa_record_private_dns" {
   type        = list(object({}))
   default     = []
-  description = "Customize details about the root block device of the instance. See Block Devices below for details."
+  description = "Customize details about the root block device of the instance."
 }
